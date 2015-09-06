@@ -68,17 +68,17 @@
 
   // Stylesheets
   var linkEl = document.createElement('link');
-  linkEl.href = originBase + '/themes/'+theme+'.min.css';
+  linkEl.href = 'http://strapdownjs.com/v/0.2/' + '/themes/'+theme+'.min.css';
   linkEl.rel = 'stylesheet';
   document.head.appendChild(linkEl);
 
   var linkEl = document.createElement('link');
-  linkEl.href = originBase + '/strapdown.css';
+  linkEl.href = 'http://strapdownjs.com/v/0.2/' + '/strapdown.css';
   linkEl.rel = 'stylesheet';
   document.head.appendChild(linkEl);
 
   var linkEl = document.createElement('link');
-  linkEl.href = originBase + '/themes/bootstrap-responsive.min.css';
+  linkEl.href = 'http://strapdownjs.com/v/0.2/' + '/themes/bootstrap-responsive.min.css';
   linkEl.rel = 'stylesheet';
   document.head.appendChild(linkEl);
 
